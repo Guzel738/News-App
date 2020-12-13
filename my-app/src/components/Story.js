@@ -22,13 +22,14 @@ const useStyles = makeStyles({
     },
     about: {
         display: 'flex',
-        justifyContent: 'space-between',
-        margin: '10px 0',
-        maxWidth: '350px'
+        margin: '10px 0'
     },
     aboutElement: {
         display: 'flex',
-        alignItems: 'flex-end'
+        alignItems: 'flex-end',
+        '&:first-child': {
+            marginRight: '25px'
+        }
     },
     pos: {
         marginLeft: '10px',

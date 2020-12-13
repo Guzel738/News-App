@@ -31,14 +31,13 @@ const useStyles = makeStyles({
     },
     info: {
         margin: '5px -2px',
-        display: 'flex'
+        display: 'flex',
+        justifyContent: 'space-between',
+        maxWidth: '350px'
     },
     infoElement: {
         display: 'flex',
-        alignItems: 'flex-end',
-        '&:first-child': {
-            marginRight: '25px'
-        }
+        alignItems: 'flex-end'
     }
 });
 
