@@ -23,13 +23,12 @@ const useStyles = makeStyles({
     about: {
         display: 'flex',
         justifyContent: 'space-between',
-        flexDirection: 'column',
-        margin: '10px 0'
+        margin: '10px 0',
+        maxWidth: '350px'
     },
     aboutElement: {
         display: 'flex',
-        alignItems: 'flex-end',
-        marginBottom: '5px'
+        alignItems: 'flex-end'
     },
     pos: {
         marginLeft: '10px',
