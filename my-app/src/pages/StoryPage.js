@@ -92,7 +92,7 @@ export const StoryPage = ({ match }) => {
                     {kids
                         ? kids.map((parentId) => (
                         <TreeViewComponent key={parentId} parentId={parentId} />))
-                        : null
+                        : <Typography color="textSecondary">No comments yet...</Typography>
                     }
                 </CardContent>
                 <CardActions className={classes.footer}>
