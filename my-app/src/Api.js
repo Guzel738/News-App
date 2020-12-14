@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const url = 'https://hacker-news.firebaseio.com/v0/'
-export const newStoriesUrl = `${url}topstories.json?orderBy="$key"&limitToFirst=100`
+export const newStoriesUrl = `${url}newstories.json?orderBy="$key"&limitToFirst=100`
 export const storyUrl = `${url}item/`
 
 export const getStoriesId = async () => {

@@ -36,7 +36,8 @@ export const Comment = ({ parentId }) => {
             {kids
                 ? kids.map((parentId) => (
                     <Comment key={parentId} parentId={parentId} /> ))
-                : null}
+                : null
+            }
         </TreeItem>
     );
 }

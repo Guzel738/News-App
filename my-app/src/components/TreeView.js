@@ -12,5 +12,5 @@ export const TreeViewComponent = ({ parentId }) => {
         >
             <Comment parentId={parentId} />
         </TreeView>
-        )
+    )
 }
